@@ -3,6 +3,18 @@ body {
 }
 button {
   cursor: pointer;
+  border-radius: 5px;
+  background-color: red;
+  color: floralwhite;
+}
+button:hover {
+  background-color: limegreen;
+}
+#enter {
+  background-color: lightblue;
+}
+#enter:hover {
+  background-color: limegreen;
 }
 ul {
   text-align: left;
@@ -11,16 +23,20 @@ ul {
 li {
   list-style: none;
   padding: 10px 20px;
-  color: floralwhite;
+  color: black;
   text-transform: capitalize;
   font-weight: bold;
   border: 2px solid black;
   border-radius: 5px;
   margin-bottom: 10px;
   background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 .done {
   background-color: limegreen;
+  color: floralwhite;
 }
 .delete {
   display: none;
