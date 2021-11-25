@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: floralwhite;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: lightblue;
+}
+.done {
+  background-color: limegreen;
+}
+.delete {
+  display: none;
+}

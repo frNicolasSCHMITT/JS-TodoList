@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <h1>Js To-Do List</h1>
+    <div class="helpText">
+      <p id="first">Entrez la tâche dans la barre</p>
+      <p id="second">Cliquez dessus pour la valider</p>
+      <p id="third">Cliquez sur "X" pour supprimer</p>
+    </div>
+    <div class="inputDiv">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Nouvelle tâche..."
+        maxlength="27"
+      />
+      <button id="enter">🖊️</button>
+    </div>
+    <div class="listItems">
+      <ul></ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
